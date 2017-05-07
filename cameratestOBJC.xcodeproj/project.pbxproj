@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D099C901EBEE9C700B5FC42 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D099C8F1EBEE9C700B5FC42 /* PostViewController.m */; };
+		1D099C931EBEEE2700B5FC42 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D099C921EBEEE2700B5FC42 /* FeedViewController.m */; };
+		1D099D0D1EBF845700B5FC42 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D099D0C1EBF845700B5FC42 /* SimpleTableCell.xib */; };
+		1D099D0F1EBF84C200B5FC42 /* download.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D099D0E1EBF84C200B5FC42 /* download.jpg */; };
+		1D099D151EBF874200B5FC42 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D099D141EBF874200B5FC42 /* SimpleTableCell.m */; };
+		1D099D171EBF91D000B5FC42 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D099D161EBF91D000B5FC42 /* button2.png */; };
+		1D099D191EBF924800B5FC42 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D099D181EBF924800B5FC42 /* arrow.png */; };
 		1D491B931EBEDECE0034B47C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D491B921EBEDECE0034B47C /* main.m */; };
 		1D491B961EBEDECE0034B47C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D491B951EBEDECE0034B47C /* AppDelegate.m */; };
 		1D491B991EBEDECE0034B47C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D491B981EBEDECE0034B47C /* ViewController.m */; };
@@ -35,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D099C8E1EBEE9B400B5FC42 /* PostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		1D099C8F1EBEE9C700B5FC42 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		1D099C911EBEEE1600B5FC42 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		1D099C921EBEEE2700B5FC42 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		1D099D0C1EBF845700B5FC42 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
+		1D099D0E1EBF84C200B5FC42 /* download.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpg; sourceTree = "<group>"; };
+		1D099D131EBF874200B5FC42 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		1D099D141EBF874200B5FC42 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		1D099D161EBF91D000B5FC42 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		1D099D181EBF924800B5FC42 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		1D491B8E1EBEDECE0034B47C /* cameratestOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameratestOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D491B921EBEDECE0034B47C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D491B941EBEDECE0034B47C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,7 +122,17 @@
 				1D491B951EBEDECE0034B47C /* AppDelegate.m */,
 				1D491B971EBEDECE0034B47C /* ViewController.h */,
 				1D491B981EBEDECE0034B47C /* ViewController.m */,
+				1D099C8E1EBEE9B400B5FC42 /* PostViewController.h */,
+				1D099C8F1EBEE9C700B5FC42 /* PostViewController.m */,
+				1D099C911EBEEE1600B5FC42 /* FeedViewController.h */,
+				1D099C921EBEEE2700B5FC42 /* FeedViewController.m */,
 				1D491B9A1EBEDECE0034B47C /* Main.storyboard */,
+				1D099D131EBF874200B5FC42 /* SimpleTableCell.h */,
+				1D099D141EBF874200B5FC42 /* SimpleTableCell.m */,
+				1D099D0C1EBF845700B5FC42 /* SimpleTableCell.xib */,
+				1D099D0E1EBF84C200B5FC42 /* download.jpg */,
+				1D099D161EBF91D000B5FC42 /* button2.png */,
+				1D099D181EBF924800B5FC42 /* arrow.png */,
 				1D491B9D1EBEDECE0034B47C /* Assets.xcassets */,
 				1D491B9F1EBEDECE0034B47C /* LaunchScreen.storyboard */,
 				1D491BA21EBEDECE0034B47C /* Info.plist */,
@@ -207,6 +234,7 @@
 				TargetAttributes = {
 					1D491B8D1EBEDECE0034B47C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MN5GJK6D48;
 						ProvisioningStyle = Automatic;
 					};
 					1D491BA61EBEDECE0034B47C = {
@@ -247,7 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D491BA11EBEDECE0034B47C /* LaunchScreen.storyboard in Resources */,
+				1D099D0F1EBF84C200B5FC42 /* download.jpg in Resources */,
+				1D099D171EBF91D000B5FC42 /* button2.png in Resources */,
 				1D491B9E1EBEDECE0034B47C /* Assets.xcassets in Resources */,
+				1D099D0D1EBF845700B5FC42 /* SimpleTableCell.xib in Resources */,
+				1D099D191EBF924800B5FC42 /* arrow.png in Resources */,
 				1D491B9C1EBEDECE0034B47C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D099C901EBEE9C700B5FC42 /* PostViewController.m in Sources */,
+				1D099C931EBEEE2700B5FC42 /* FeedViewController.m in Sources */,
+				1D099D151EBF874200B5FC42 /* SimpleTableCell.m in Sources */,
 				1D491B991EBEDECE0034B47C /* ViewController.m in Sources */,
 				1D491B961EBEDECE0034B47C /* AppDelegate.m in Sources */,
 				1D491B931EBEDECE0034B47C /* main.m in Sources */,
@@ -424,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MN5GJK6D48;
 				INFOPLIST_FILE = cameratestOBJC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = camera.cameratestOBJC;
@@ -435,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MN5GJK6D48;
 				INFOPLIST_FILE = cameratestOBJC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = camera.cameratestOBJC;
@@ -507,6 +544,7 @@
 				1D491BBD1EBEDECE0034B47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D491BBE1EBEDECE0034B47C /* Build configuration list for PBXNativeTarget "cameratestOBJCTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +553,7 @@
 				1D491BC01EBEDECE0034B47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D491BC11EBEDECE0034B47C /* Build configuration list for PBXNativeTarget "cameratestOBJCUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +562,7 @@
 				1D491BC31EBEDECE0034B47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
